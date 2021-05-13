@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.info{
+  max-width: 50%;   
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 50px;   
+ 
+}
+.info img{ 
+  margin-top: 50px;   
+  width: 100%;
+    
+}
+.container{     
+  width: 40vw;    
+  height: 657px;        
+  background: rgba(163, 205, 217, 0.2);       
+  border-radius: 40px 0 0 40px;     
+  position: relative;
+  float: right;
+  top: -577px;   
+  text-align: center;
+}
+
+.container img{
+  width: 400px;
+  padding-top: 20px;
+}
+
+
+.container input{
+  width: 500px;
+  height: 50px;   
+  display: block;
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 10%);
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;   
+}
+button{
+  width: 300px;
+  height: 55px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  border: none;
+  background: none;
+  background: rgba(163, 205, 217, 1);  
+  border-radius: 15px;
+  font-weight: bold;    
+}
+button:hover{
+  border: 2px solid #506AD4;
+  background: #6593A6;
+}
+#resultado h2 {
+  margin-bottom: 10px;
+}
+#resultado img {
+  width: 24px;
+  height: 10%;
+  margin-top: -22px;
+  margin-bottom: 10px;
+}
+#resultado p {   
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 180px;  
+}
+
